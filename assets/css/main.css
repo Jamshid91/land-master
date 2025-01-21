@@ -841,9 +841,18 @@ h1, h2, h3, h4, h5, h6, p {
   }
   .main .block1-item .item svg {
     height: 20px;
+    max-width: 23px;
   }
   .main .block1-item .item:last-child {
     position: relative;
+    order: 1;
+  }
+  .main .block1-item .item:nth-child(2) {
+    order: 3;
+    border-right: 1px solid #fff;
+  }
+  .main .block1-item .item:first-child {
+    order: 2;
   }
   .main .block2 {
     margin: 80px 0 70px;

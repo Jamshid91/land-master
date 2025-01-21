@@ -277,9 +277,18 @@
           line-height: 16px;
           svg {
             height: 20px;
+            max-width: 23px;
           }
           &:last-child {
             position: relative;
+            order: 1;
+          }
+          &:nth-child(2) {
+            order: 3;
+            border-right: 1px solid #fff;
+          }
+          &:first-child {
+            order: 2;
           }
         }
       }
