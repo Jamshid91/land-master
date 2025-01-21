@@ -229,11 +229,11 @@ h1, h2, h3, h4, h5, h6, p {
   width: 100%;
   z-index: 10;
   color: #fff;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 18px;
+  line-height: 20px;
 }
 .header-nav li {
-  margin-right: 44px;
+  margin-right: 35px;
   font-weight: 300;
   position: relative;
 }
@@ -641,11 +641,14 @@ h1, h2, h3, h4, h5, h6, p {
     line-height: 38px;
   }
   .header {
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 12px;
+    line-height: 16px;
   }
   .header .logo img {
     width: 160px;
+  }
+  .header-nav li {
+    margin-right: 15px;
   }
   .main .block1 {
     height: 611px;
@@ -735,15 +738,11 @@ h1, h2, h3, h4, h5, h6, p {
   }
 }
 @media (max-width: 992px) {
-  .header {
-    font-size: 14px;
-    line-height: 18px;
-  }
   .header .logo img {
     width: 99px;
   }
   .header-nav li {
-    margin-right: 25px;
+    margin-right: 15px;
   }
   .header-social .social svg {
     width: 20px;
